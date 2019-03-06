@@ -19,7 +19,45 @@
         <h1>Best Bank Ever!</h1>
         <h4>Our Vision</h4>
         <p>Our commitment to our customers has been at the core of who we are for nearly 100 years. We're committed to constantly creating and reinventing with the singular purpose of making a real difference for our customers. That's why we offer award-winning online banking, rewarding credit and lending experiences, unmatched auto financing products and services and a growing wealth management and brokerage platform.</p>
-    
+        
+        <div class="tabs">
+                <button class="modal-toggle">Login</button>
+           
+            
+            <div class="modal">
+              <div class="modal-overlay modal-toggle"></div>
+              <div class="modal-wrapper modal-transition">
+                <div class="modal-header">
+                  <button class="modal-close modal-toggle"><svg class="icon-close icon" viewBox="0 0 32 32"><use xlink:href="#icon-close"></use></svg></button>
+                  <h2 class="modal-heading">Sign In Your Account</h2>
+                </div>
+                
+                <div class="modal-body">
+                  <div class="modal-content">
+                    <input>Username</input>
+                    <br/>
+                    <input>Password</input>
+                    <br/>
+                    <button class="modal-toggle">Login</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <ul class="tabs-nav">
+                  <li><a href="#tab-1">News</a></li>
+                  <li><a href="#tab-2">Archive</a></li>
+                </ul>
+                <div class="tabs-stage">
+                  <div id="tab-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec neque nisi, dictum aliquet lectus.</p>
+                  </div>
+                  <div id="tab-2">
+                    <p>Phasellus pharetra aliquet viverra. Donec scelerisque tincidunt diam, eu fringilla urna auctor at.</p>
+                  </div>
+                </div>
+            </div>
+
+
         <h3>Reasons We're Awesome</h3>
         <ul>
             <li>Banking</li>
@@ -30,10 +68,11 @@
         </ul>
 
         <h3>Amazing Mobile Info</h3>
+       
         <p>Now you have ability to access all of the great new features on our fresh new moible app.</p>
 
         <h2>Rates | Check Them Out.</h2>
-    
+        <div>
         <table>
                 <tbody>
                     <tr><td>Big Guy Financial</td><td>0.75</td><td>376.41</td></tr>
@@ -43,8 +82,10 @@
                     <tr><td>Bank of Everywhere</td><td>0.01</td><td>5.00</td></tr>
                 </tbody>
             </table>
+        </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="ally.js"></script>
 </body>
 </html>
