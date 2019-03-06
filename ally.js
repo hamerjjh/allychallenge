@@ -12,7 +12,7 @@ $('.tabs-nav a').on('click', function(event){
   $($(this).attr('href')).show();
 });
 
-// Show Sign in Model 
+// Show Sign in Modal 
 $('.modal-toggle').on('click', function(e) {
     e.preventDefault();
     $('.modal').toggleClass('is-visible');

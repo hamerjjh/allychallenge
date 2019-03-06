@@ -4,12 +4,20 @@ body {
 	margin: 0;
 	min-height: 100vh;
 }
+.wrapper {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+list-style: none;
 }
 
+h1{
+    color: purple;
+}
 
 h2,
 h3,
@@ -23,23 +31,27 @@ a {
 
 .logo {
 	margin: 0;
-	font-size: 1.45em;
+    font-size: 1.45em;
+    
 }
 
 .main-nav {
 	margin-top: 5px;
-
+    list-style: none;
+    
 }
 .logo a,
 .main-nav a {
 	padding: 10px 15px;
 	text-transform: uppercase;
 	text-align: center;
-	display: block;
+    display: block;
+    
+    
 }
 
 .main-nav a {
-	color: #34495e;
+	color: white;
 	font-size: .99em;
 }
 
@@ -47,36 +59,65 @@ a {
 	color: #718daa;
 }
 
+.modal-toggle{
+    background: purple;
+    color: white;
+}
 
+.mobileinfo{
+    background-color: lightgreen;
+}
 
 .header {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	border: 1px solid #a2a2a2;
-	background-color: #f4f4f4;
+    background-color: lightblue;
 	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+    border-radius: 5px;
+    
 }
 
 .tabs {
     max-width: 538px;
     float: right;
+    
   }
   .tabs-nav li {
     float: left;
     width: 50%;
+  
+
   }
   .tabs-nav li:first-child a {
     border-right: 0;
     border-top-left-radius: 6px;
+    background: #eaeaed;
+    border: 1px solid #cecfd5;
+    color: #0087cc;
+    display: block;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    
   }
   .tabs-nav li:last-child a {
     border-top-right-radius: 6px;
+    background: #eaeaed;
+    border: 1px solid #cecfd5;
+    color: #0087cc;
+    display: block;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
   }
+ 
 
   a:hover {
     color: #ff7b29;
@@ -194,6 +235,26 @@ a {
 
 img {
     float: right;
+}
+
+table {
+    text-align: center;
+    display: block;
+    align-content: center;
+    
+    
+}
+td {
+    border: 1px  black;
+    align-content: center;
+    padding: 3px;
+    width: 40%;
+}
+.row1{
+    background-color: lightcyan;
+}
+.row2{
+    background-color: lightgreen;
 }
 
 
